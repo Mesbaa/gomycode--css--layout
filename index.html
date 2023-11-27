@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Layout</title>
+  </head>
+  <body>
+    <!-- Creating the header  -->
+    <header class="container mg-il-20 container--header">
+      <!-- Adding the logo that redirect to the home page -->
+      <a href="index.html">
+        <img
+          class="header-logo"
+          src="src/www.docplanner.com-1700906103258/logo-default-group-en.svg"
+          alt="" />
+      </a>
+
+      <!-- Adding the navbar -->
+      <nav class="header header--nav">
+        <ul class="nav-wrapper">
+          <li class="nav-element"><a href="#">About Us</a></li>
+          <li class="nav-element"><a href="#">Career</a></li>
+          <li class="nav-element"><a href="#">Departments</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- This is the main content of the website -->
+    <main>
+      <!-- LEAD SECTION  -->
+      <section class="mg-il-20 container-grid">
+        <img
+          class="logotag"
+          src="src/www.docplanner.com-1700906103258/logo.png"
+          alt="" />
+        <h1>Making the healthcare experience more human</h1>
+        <div class="text">
+          <!-- Left side  -->
+          <div class="text text--left">
+            <p>
+              We want patients to find the perfect doctor and book an
+              appointment in the most easy way. The patient journey should be
+              enjoyable, and that's why we are always next to them: to help them
+              find the best possible care. Anytime, anywhere.
+            </p>
+          </div>
+
+          <!-- Right side  -->
+          <div class="text text--right">
+            <p>
+              We also help doctors to better manage their practice and build
+              their online reputation. With our integrated end-to-end solution,
+              doctors are able not only to improve their online presence, but
+              also to devote their time to what really matters: their patients.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICE SECTION  -->
+      <section class="mg-il-20 container-grid-span-3">
+        <!-- GREEN CARD  -->
+        <div class="card card--green">
+          <!-- Top section of GREEN CARD  -->
+          <div class="content">
+            <img
+              src="src/www.docplanner.com-1700906103258/icon-patients.svg"
+              alt="" />
+            <h1>For patients</h1>
+            <h2>
+              Find a doctor, book a visit and solve any health-related doubt
+            </h2>
+          </div>
+
+          <!-- Bottom section of GREEN CARD  -->
+          <div class="country-selection">
+            <select name="choose-country" id="country-switcher">
+              <option value="#">Choose country</option>
+              <option value="#">Senegal</option>
+              <option value="#">France</option>
+              <option value="#">Japon</option>
+              <option value="#">Nicaragua</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- BLUE CARD  -->
+        <div class="card card--blue">
+          <!-- Top section of BLUE CARD  -->
+          <div class="content">
+            <img
+              src="src/www.docplanner.com-1700906103258/icon-doctors.svg"
+              alt="" />
+            <h1>For doctors</h1>
+            <h2>Save time managing visits and cut no-shows by half</h2>
+          </div>
+
+          <!-- Bottom section of BLUE CARD  -->
+          <div class="country-selection">
+            <select name="choose-country" id="country-switcher">
+              <option value="#">Choose country</option>
+              <option value="#">Senegal</option>
+              <option value="#">France</option>
+              <option value="#">Japon</option>
+              <option value="#">Nicaragua</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- GREY CARD  -->
+        <div class="card card--grey">
+          <!-- Top section of GREY CARD  -->
+          <div class="content">
+            <img
+              src="src/www.docplanner.com-1700906103258/icon-clinics.svg"
+              alt="" />
+            <h1>For clinics</h1>
+            <h2>Deliver an exceptional patient experience in your clinic</h2>
+          </div>
+
+          <!-- Bottom section of GREY CARD  -->
+          <div class="country-selection">
+            <select name="choose-country" id="country-switcher">
+              <option value="#">Choose country</option>
+              <option value="#">Senegal</option>
+              <option value="#">France</option>
+              <option value="#">Japon</option>
+              <option value="#">Nicaragua</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRAND SECTION  -->
+      <section class="mg-il-20 brand-section container-grid-span-3">
+        <h1 class="brand-heading">
+          We are a global company with local culture
+        </h1>
+        <div class="brand">
+          <ul class="brand-wrapper">
+            <li>
+              <a href="">
+                <img
+                  class="small-logo"
+                  src="src/www.docplanner.com-1700906103258/1e1cf6e3-fdb8-4f68-b7fd-dc4d0f77e552.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  class="small-logo"
+                  src="src/www.docplanner.com-1700906103258/1e1cf6e3-fdb8-4f68-b7fd-dc4d0f77e552.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  class="small-logo"
+                  src="src/www.docplanner.com-1700906103258/1e1cf6e3-fdb8-4f68-b7fd-dc4d0f77e552.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  class="small-logo"
+                  src="src/www.docplanner.com-1700906103258/1e1cf6e3-fdb8-4f68-b7fd-dc4d0f77e552.svg"
+                  alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  class="small-logo"
+                  src="src/www.docplanner.com-1700906103258/1e1cf6e3-fdb8-4f68-b7fd-dc4d0f77e552.svg"
+                  alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="stat">
+        <div class="left-side">
+          <h1>The world's biggest healthcare platform</h1>
+          <p>
+            We work from 9 offices all over the world, bringing Docplanner Group
+            to life in 13 countries.
+          </p>
+        </div>
+        <div class="right-side">
+          <div class="stat-row row-1">
+            <div class="card-stat card1">
+              <img src="src/www.docplanner.com-1700906103258/flag.png" alt="" />
+              <h3>Leader in 13 countries</h3>
+              <p>
+                Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia,
+                Czech Republic, Portugal, Argentina, Peru and Chile
+              </p>
+            </div>
+            <div class="card-stat card1">
+              <img src="src/www.docplanner.com-1700906103258/flag.png" alt="" />
+              <h3>Leader in 13 countries</h3>
+              <p>
+                Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia,
+                Czech Republic, Portugal, Argentina, Peru and Chile
+              </p>
+            </div>
+          </div>
+          <div class="stat-row row-2">
+            <div class="card-stat card1">
+              <img src="src/www.docplanner.com-1700906103258/flag.png" alt="" />
+              <h3>Leader in 13 countries</h3>
+              <p>
+                Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia,
+                Czech Republic, Portugal, Argentina, Peru and Chile
+              </p>
+            </div>
+            <div class="card-stat card1">
+              <img src="src/www.docplanner.com-1700906103258/flag.png" alt="" />
+              <h3>Leader in 13 countries</h3>
+              <p>
+                Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia,
+                Czech Republic, Portugal, Argentina, Peru and Chile
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OFFICES SECTION  -->
+      <section class="mg-il-20 offices">
+        <h1>Improve the lives of millions. Change yours forever.</h1>
+        <p>
+          More than 2800 team mates share our same vision, goals and passion.
+          With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio,
+          Bologna, Mexico City and Curitiba, our search for great talent never
+          stops.
+        </p>
+        <div class="container-grid-span-3">
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+          <div class="offices-card">
+            <a href="#">
+              <figure>
+                <img
+                  src="src/www.docplanner.com-1700906103258/barcelona.png"
+                  alt="" />
+                <div class="offices-card-elements">
+                  <h4>Barcelona</h4>
+                  <button>See openings</button>
+                </div>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN US SECTION  -->
+      <section class="join-us">
+        <h1>Sounds interesting? Join us now!</h1>
+        <button>See all current openings</button>
+      </section>
+
+      <!-- FOOTER  -->
+      <footer class="footer">
+        <p>
+          We are leaders in 13 countries:
+          <a href="">
+            Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal,
+            Mexico, Colombia, Brazil, Argentina, Peru and Chile
+          </a>
+        </p>
+        <p>www.docplanner.com © 2023</p>
+      </footer>
+    </main>
+  </body>
+</html>

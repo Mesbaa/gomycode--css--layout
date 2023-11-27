@@ -1,0 +1,287 @@
+/* CSS reset & Default Setting  */
+
+/* Global Box-sizing */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Global Link Styling */
+a {
+  text-decoration: none;
+}
+
+/* General spacing and Font styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #747474;
+}
+
+li {
+  list-style-type: none;
+}
+
+.mg-il-20 {
+  margin-inline: 20%;
+}
+
+/* Styling Website Content  */
+
+/* Styling the header & Navbar */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* HEADER  */
+.container--header {
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 70px;
+}
+.header-logo {
+  width: 268px;
+}
+
+/* NAVBAR  */
+.nav-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-element {
+  list-style-type: none;
+}
+
+.nav-element a:hover {
+  color: #00ccb1;
+}
+
+/* LEAD SECTION Styling */
+
+.container-grid {
+  margin-top: 30px;
+}
+
+.container-grid h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #00b39b;
+  text-align: center;
+}
+
+.logotag {
+  display: block;
+  width: 40px;
+  margin-inline: auto;
+}
+
+.text {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.text p {
+  line-height: 28px;
+  margin: 12px 0px;
+}
+
+/* Styling the cards */
+
+.container-grid-span-3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  margin-top: 80px;
+  padding: 32px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.card h1 {
+  font-size: 26px;
+  color: #fff;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: -0.3px;
+}
+
+.country-selection {
+  margin-top: 80px;
+}
+
+.card select {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.card--green {
+  background-color: #00ccb1;
+}
+
+.card--blue {
+  background-color: #3d83df;
+}
+
+.card--grey {
+  background-color: #1b2734;
+}
+
+/* BRAND SECTION  */
+.brand-section {
+  margin-top: 80px;
+}
+
+.brand-heading {
+  color: #00ccb1;
+}
+
+.brand {
+  grid-column: 2 / 4;
+}
+
+.brand-wrapper {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-logo {
+  width: 120px;
+}
+
+/* STAT SECTION  */
+
+.stat {
+  padding-bottom: 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #daf8f6;
+}
+
+.left-side {
+  margin-left: 40%;
+  margin-top: 80px;
+}
+
+.left-side h1 {
+  color: #00ccb1;
+}
+
+.left-side p {
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.right-side {
+  display: flex;
+  margin-right: 40%;
+  gap: 20px;
+}
+
+.card-stat {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.card1 h3 {
+  color: #00ccb1;
+}
+
+.stat-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row-1 {
+  margin-top: 60px;
+}
+
+.row-2 {
+  margin-top: 30px;
+}
+
+.offices {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.offices h1 {
+  color: #00ccb1;
+}
+
+.offices p {
+  width: 50%;
+  margin-top: 30px;
+  margin-inline: auto;
+  font-size: 0.8rem;
+}
+
+.offices-card {
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.offices-card-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.offices-card-elements button {
+  background-color: #3d83df;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+
+/* JOIN US SECTION Styling  */
+
+.join-us {
+  padding-top: 120px;
+  width: 33%;
+  margin: auto;
+  text-align: center;
+}
+
+.join-us h1 {
+  text-align: center;
+}
+
+.join-us button {
+  background-color: #3d83df;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.footer {
+  padding-block: 40px;
+  text-align: center;
+}
+
+.footer a {
+  color: #3d83df;
+}
